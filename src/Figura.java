@@ -1,6 +1,10 @@
 public abstract class Figura {
 
-    private String cor;
+    protected String cor;
+
+    public Figura(String cor) {
+        this.cor = cor;
+    }
 
 
     public String getCor() {
@@ -9,7 +13,9 @@ public abstract class Figura {
      
     public void setCor(String cor)  {
         this.cor = cor;
-        
+
     }   
+
+    public abstract Double area();
 
 }

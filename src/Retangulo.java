@@ -10,6 +10,11 @@ public class Retangulo extends Figura {
         this.lado2 = lado2;
 
     }
+    // sobrecarga 
+    public Retangulo( Double lado1, String cor) {
+        super(cor);
+        this.lado1 = lado1;
+    }
 
     public Double getLado1() {
         return lado1;

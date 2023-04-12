@@ -16,5 +16,11 @@ public class Circulo extends Figura {
     }
 
 
+    @Override
+    public String toString() {
+        return "Circulo raio=" + area() ;
+    }
+
+
     
 }
